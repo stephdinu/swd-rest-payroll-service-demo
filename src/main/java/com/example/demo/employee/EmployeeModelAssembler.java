@@ -1,7 +1,9 @@
-package com.example.demo;
+package com.example.demo.employee;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
+import com.example.demo.employee.Employee;
+import com.example.demo.employee.EmployeeController;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.stereotype.Component;
