@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 import java.util.Objects;
 
 @Entity
+public
 class Employee {
 
     private @Id
@@ -18,7 +19,7 @@ class Employee {
 
     Employee() {}
 
-    Employee(String firstName, String lastName, String role) {
+    public Employee(String firstName, String lastName, String role) {
 
         this.firstName = firstName;
         this.lastName = lastName;

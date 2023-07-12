@@ -3,9 +3,9 @@ package com.example.demo.employee;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.example.demo.EmployeeModelAssembler;
-import com.example.demo.EmployeeNotFoundException;
-import com.example.demo.EmployeeRepository;
+import com.example.demo.employee.EmployeeModelAssembler;
+import com.example.demo.employee.EmployeeNotFoundException;
+import com.example.demo.employee.EmployeeRepository;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.IanaLinkRelations;

@@ -1,6 +1,10 @@
-package com.example.demo;
+package com.example.demo.order;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
+
+import com.example.demo.order.Status;
+import com.example.demo.order.Order;
+import com.example.demo.order.OrderController;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.stereotype.Component;

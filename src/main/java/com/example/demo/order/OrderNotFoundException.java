@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.order;
 
 public class OrderNotFoundException extends RuntimeException {
     OrderNotFoundException(Long id) {

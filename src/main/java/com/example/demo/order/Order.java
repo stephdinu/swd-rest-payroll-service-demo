@@ -1,7 +1,8 @@
-package com.example.demo;
+package com.example.demo.order;
 
 import java.util.Objects;
 
+import com.example.demo.order.Status;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -9,7 +10,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "CUSTOMER_ORDER")
-class Order {
+public class Order {
 
     private @Id @GeneratedValue Long id;
 
@@ -18,7 +19,7 @@ class Order {
 
     Order() {}
 
-    Order(String description, Status status) {
+    public Order(String description, Status status) {
 
         this.description = description;
         this.status = status;

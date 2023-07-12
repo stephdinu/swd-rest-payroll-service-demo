@@ -1,5 +1,10 @@
 package com.example.demo;
 
+import com.example.demo.employee.Employee;
+import com.example.demo.employee.EmployeeRepository;
+import com.example.demo.order.Order;
+import com.example.demo.order.OrderRepository;
+import com.example.demo.order.Status;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

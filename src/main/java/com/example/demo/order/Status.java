@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.demo.order;
 
-enum Status {
+public enum Status {
 
     IN_PROGRESS,
     COMPLETED,
